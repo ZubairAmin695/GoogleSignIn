@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-image: url('/bicrypto-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: inset;
+}
+
+.logo {
+    height: 100px;
+}
+
+.wrapper {
+    width: 95%;
+    max-width: 400px;
+    background: #121212d8;
+    padding: 40px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-container h3 {
+    font-size: 33px;
+    font-weight: bold;
+    color: #21b6cf;
+    font-family: 'Roboto', sans-serif;
+    margin: 5px 0 10px 0;
+}
+
+.form-container .form input {
+    height: 40px;
+    background: none;
+    color: #f8f9fa;
+    border: 2px solid #21b6cf;
+    border-radius: 15px;
+    width: 100%;
+    margin: 8px 0;
+    padding: 0 10px;
+}
+
+.form-container a {
+    color: white;
+    text-decoration: none;
+}
+
+.form-container form button {
+    background: none;
+    padding: 8px 16px;
+    border-color: #21b6cf;
+    font-weight: 600;
+    border-radius: 15px;
+    color: white;
+    margin: 15px 0;
+}
+.form-container p {
+    color: white;
+    text-align: center;
+}
+
+
+.signup h3 {
+    font-size: 25px;
+}
